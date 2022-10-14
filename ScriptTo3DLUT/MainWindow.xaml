@@ -18,9 +18,18 @@
         <TabControl Grid.Column="0" Grid.Row="0">
             <TabItem Header="Example">
                 <DockPanel>
-                    <TextBox VerticalScrollBarVisibility="Visible" TextWrapping="Wrap"   AcceptsReturn="True">
+                    <!--<TextBox VerticalScrollBarVisibility="Visible" TextWrapping="Wrap"   AcceptsReturn="True">
                         abc
-                    </TextBox>
+                    </TextBox>-->
+                    <avalonEdit:TextEditor
+                        xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+                        Name="textEditor"
+                        SyntaxHighlighting="JavaScript"
+                        FontFamily="Consolas"
+                        ShowLineNumbers="True"
+                        
+                        FontSize="10pt"/>
+
                 </DockPanel>
             </TabItem>
         </TabControl>

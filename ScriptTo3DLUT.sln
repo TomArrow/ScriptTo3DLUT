@@ -3,18 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptTo3DLUT", "ScriptTo3DLUT\ScriptTo3DLUT.csproj", "{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptTo3DLUT", "ScriptTo3DLUT\ScriptTo3DLUT.csproj", "{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUTVisualize", "LUTVisualize\LUTVisualize.csproj", "{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Debug|x64.ActiveCfg = Debug|x64
+		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Debug|x64.Build.0 = Debug|x64
 		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Release|x64.ActiveCfg = Release|x64
+		{CCC9EE8A-EEA3-4397-9D71-EFD5CAFBF5AD}.Release|x64.Build.0 = Release|x64
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF7AE5D8-0D0E-4DA4-B8B0-51CB14E16D13}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

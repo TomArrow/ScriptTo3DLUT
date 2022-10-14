@@ -23,6 +23,8 @@ namespace ScriptTo3DLUT
         public MainWindow()
         {
             InitializeComponent();
+
+            textEditor.Options.ShowTabs = true;
         }
     }
 }
